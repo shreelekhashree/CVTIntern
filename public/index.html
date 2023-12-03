@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Plantcare Tracker Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+</head>
+
+<body>
+  <div class="home-container">
+    <header role="banner" id="header-container" >
+      <div class="header-div">
+        <img id="header-icon" src="plant-icons/010-sprout.png" alt="holding plant icon"></img>
+        <h1 class="page-title">Plantcare Tracker</h1>
+      </div>
+    </header>
+    
+    <main role="main" id="main-container">
+      <section role="region" id="homepage-welcome">
+        <div class="welcome-section">
+          <p id="welcome-text">
+            Welcome to Plantcare Tracker!<br>
+            New user? Sign up below!<br>
+            Keep track of your plants,
+            how to care for them,
+            or browse other user's plants.
+          </p>
+          <img id="welcome-icon" src="plant-icons/035-watering-can.png" alt="watering can icon"></img>
+          <p id="demo-text">
+            Demo User Username: demouser<br>
+            Demo User Passowrd: demopassword
+          </p>
+        </div>
+      </section>
+
+      <section role="region">
+        <div id="user-buttons">
+          <button id="new-user-button" class="button">New User</button>
+          <button id="login-button" class="button">Log In</button>
+        </div>
+      </section>
+
+      <div id="new-user-form" class="hidden">
+        <form class="new-user-form">
+          <fieldset>
+            <legend>New User Sign Up</legend>
+            <button class="back-button" type="button">&times;</button>
+            <label for="username-new">Username</label>
+            <input id="username-new" type="text" placeholder="Enter a username" required>
+            <label for="password-new">Password</label>
+            <input id="password-new" type="password" placeholder="Enter a password" required>
+            <input type="checkbox" id="new-pass-toggle"> Show Password
+            <button id="new-user-submit" type="submit" class="button">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+      
+      <div id="login-form" class="hidden">
+        <form class="login-form">
+          <fieldset>
+            <legend>Returning User Login</legend>
+            <button class="back-button" type="button">&times;</button>
+            <label for="username-login">Username</label>
+            <input id="username-login" type="text" placeholder="Your username" required>
+            <label for="password-login">Password</label>
+            <input id="password-login" type="password" placeholder="Your password" required>
+            <input type="checkbox" id="log-pass-toggle"> Show Password
+            <button id="login-submit" type="submit" class="button">Log In</button>
+          </fieldset>
+        </form>
+      </div>
+    </main>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="home-script.js"></script>
+</body>
+
+</html>
