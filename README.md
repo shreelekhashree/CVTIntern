@@ -22,20 +22,5 @@ Back-End Technologies:
 -MongoDB Atlas/mLab
 -Mocha/Chai
 
-Home Page<br>
-<img src='https://i.imgur.com/AmDZnkd.png'/>
 
-Dashboard<br>
-<img src='https://i.imgur.com/rBZDJgD.png'/>
-
-Plant Information<br>
-<img src='https://i.imgur.com/vYvlQHD.png'/>
-
-Messages<br>
-<img src='https://i.imgur.com/MPWPOvg.png'/>
-<img src='https://i.imgur.com/x7Goeil.png'/>
-
-Other Users and Their Plants<br>
-<img src='https://i.imgur.com/yekmN6e.png'/>
-<img src='https://i.imgur.com/LyBxCyH.png'/>
 
